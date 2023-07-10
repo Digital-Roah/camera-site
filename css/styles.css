@@ -1,0 +1,777 @@
+@import url('font.css');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+body p {
+    font-size: 15px;
+    color: grey;
+    line-height: 1.8em;
+}
+
+.text-barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-berbas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.text-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.text-lobstertwo {
+    font-family: 'Lobster Two', cursive;
+}
+
+.text-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-roboto-bold {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-grey {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.text-light-grey {
+    color: rgba(212, 212, 212, 0.55);
+}
+
+.text-smoke {
+    color: rgb(187, 186, 186);
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.site-header {
+    /* background: #aa0a5f; */
+    background: #181818;
+    padding: 10px 0px;
+    /* border-bottom: 1px solid #444444; */
+}
+
+.text-green {
+    color: #39ff14;
+}
+
+.text-red {
+    color: #fe0000;
+}
+
+.text-darkred {
+    color: #c50505;
+}
+
+.text-sblack {
+    color: #040001;
+}
+
+.header-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-links a:hover {
+    color: #39ff14;
+}
+
+.header-links a .icon {
+    color: #39ff14; 
+    margin-right: 3px;
+}
+
+.header-socials a {
+  color: #39ff14;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.header-socials a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+
+.navbar {
+    background: white;
+}
+
+.navbar .navbar-brand .nav-logo {
+    width: 180px;
+}
+
+.navbar .navbar-brand .nav-head {
+    color: rgb(10, 141, 10);
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14.5px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: #fe0000;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fe0000;
+}
+
+.abs-dropicon {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    margin-right: -10px;
+}
+
+.abs-dropicon span {
+    position: relative;
+    width: 30px;
+    text-align: end;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    /* background: #ac6b43; */
+    padding: 5px 10px;
+}
+
+.ak-drop {
+    background: #181818;
+    border-radius: 0px;
+    min-width: 120px;
+}
+
+.ak-drop .dropdown-item {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14.5px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+.ak-drop .dropdown-item:hover {
+    background: #181818;
+}
+
+.dropdown:hover .ak-drop {
+    display: block;
+ }
+
+ .social-navs {
+    margin-top: 30px;
+}
+
+.social-navs a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.social-navs a:hover {
+    color: #39ff14;
+}
+
+.social-navs a i:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+ .toggle-btn {
+    border: none;
+    color: #2e2e2e;
+    font-size: 22px;
+ }
+
+ .toggle-btn:focus {
+    box-shadow: none;
+ }
+
+.home-banner {
+    position: relative;
+}
+
+.home-banner .carousel-arrow {
+    border: 0;
+    background: #181818;
+    color: white;
+    display: none !important;
+    /* height: 50px;
+    width: 45px; */
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    font-size: 20px;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .home-banner:hover .carousel-arrow {
+     display: block !important;
+  }
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .home-banner .carousel-arrow.next {
+    right: 0;
+    margin-right: 0px;
+  }
+
+  .home-banner .carousel-arrow.next:hover {
+    padding: 10px 20px 10px 15px;
+  }
+
+  .home-banner .carousel-arrow.prev:hover {
+    padding: 10px 15px 10px 20px;
+  }
+
+  .banner-one {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/IMG_1490.JPG) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.banner-two {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/IMG_3834.JPG) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.banner-three {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)) , url(../img/9f3db681-f16a-4c59-ad8b-213741dd9111.JPG) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.banner-textarea {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    padding: 30px;
+}
+
+.banner-textarea p {
+    margin-top: 10px;
+    line-height: 1.8em;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-banner {
+    color: white;
+    background: #fe0000;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #fe0000 !important;
+    transition:all 0.8s, color 0.3s 0.3s;
+}
+
+.btn-banner:hover {
+    color: #fe0000 !important;
+    background: white !important;
+    border: 1px solid white !important;
+    box-shadow:300px 0 0 0 white inset !important;
+}
+
+section {
+    margin-top: 60px;
+}
+
+.welcome-area h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.btn-about {
+    color: white;
+    background: #fe0000;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #fe0000 !important;
+    border-radius: 0px;
+    transition:all 0.8s, color 0.3s 0.3s;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.btn-about:hover {
+    color: #fe0000 !important;
+    background: white !important;
+    border: 1px solid #fe0000 !important;
+    box-shadow:300px 0 0 0 white inset !important;
+}
+
+.red-bg {
+    background: #c50505;
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    top: 200px;
+    left: 5%;
+}
+
+.ceo-pic-cover {
+    height: 400px;
+}
+
+.ceo-pic-main {
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    padding: 0px 40px;
+    top: 30px;
+    left: 5%;
+}
+
+.tab-item .nav-link {
+    color: white;
+    background: rgb(90, 90, 90);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 0px;
+    font-size: 17px;
+    padding: 8px 20px;
+}
+
+.tab-item:nth-child(1) {
+    padding-right: 13px;
+}
+
+.tab-item:nth-child(2) {
+    padding-left: 13px;  
+}
+
+.tab-item .nav-link.active {
+    color: white;
+    background: #c50505;  
+}
+
+.slider-bread a {
+    text-decoration: none;
+    color: #c50505;
+}
+
+   /* Carousel Slider Center Mode */
+
+   .my-slider .slider-arrow {
+    border: 0;
+    background: #c50505;
+    padding: 7px 15px;
+    position: absolute;
+    font-size: 20px;
+    z-index: 5;
+    top: -30px;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .my-slider .slider-arrow.next {
+    right: 0;
+    background: #2e2e2e;
+  }
+
+  .my-slider .slider-arrow.prev {
+    right: 50px;
+  }
+
+  .myslider-dots {
+    list-style: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .myslider-dots li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .myslider-dots li > button {
+    width: 8px;
+    height: 10px;
+    border: none;
+    background: #181818;
+    font-size: 0px;
+    /* color: #65066C; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .myslider-dots li.slick-active > button {
+    background: #fe0000;
+  }
+
+  .slider-item .slider-area {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: whitesmoke;
+  }
+
+  .slider-item .slider-area .img-slider {
+    width: 100%;
+    /* height: 200px; */
+  }
+
+  .project-slide {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .project-slide:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .slider-area .item-head {
+    display: block;
+    color: #2e2e2e;
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .slider-area .item-body {
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .slider-area .item-price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #c50505;
+    display: block;
+  }
+
+  .service-content {
+    background: rgb(71, 71, 71);
+    padding: 15px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .service-content:hover {
+    background: #c50505;
+  }
+
+  .service-content span {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .service-content span i {
+    margin-right: 5px;
+  }
+
+  .testimonial-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)) , url(../img/IMG_5693.JPG) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+    padding: 30px 0px;
+  }
+
+  .testimonial-area h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .testi-content {
+    position: relative;
+}
+
+.testi-content .carousel-arrow {
+    border: 0;
+    background: transparent;
+    /* display: none !important; */
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  /* .testi-content:hover .carousel-arrow {
+     display: block !important;
+  } */
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .testi-content .carousel-arrow.next {
+    right: 0;
+    margin-right: 15px;
+  }
+
+  .testi-dots {
+    list-style: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testi-dots li {
+    display: inline-block;
+    margin: 0 3px;
+  }
+  
+  .testi-dots li > button {
+    width: 20px;
+    height: 4px;
+    border: none;
+    background: white;
+    color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .testi-dots li.slick-active > button {
+    background: #39ff14;
+  }
+
+  .img-testimonial {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .test-quote p {
+    font-size: 17px;
+  }
+
+  .contact-group {
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .contact-group .form-label {
+    font-weight: 500;
+    color: #2e2e2e;
+  }
+
+  .contact-group .form-control {
+    border-radius: 0px;
+    padding: 10px 15px;
+  }
+
+  .contact-group .form-control:focus {
+    color: #c50505;
+    box-shadow: none;
+    border-color: #c50505;
+  }
+
+  .btn-submit {
+    color: white;
+    background: #c50505;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #c50505 !important;
+    border-radius: 0px;
+    transition:all 0.8s, color 0.3s 0.3s;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.btn-submit:hover {
+    color: #c50505 !important;
+    background: white !important;
+    border: 1px solid #c50505 !important;
+    box-shadow:300px 0 0 0 white inset !important;
+}
+
+.profile-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)) , url(../img/IMG_7371.jpg) no-repeat center;
+    min-height: 300px;
+    background-size: cover;
+    padding-top: 70px;
+  }
+
+  .btn-prof {
+    color: white;
+    background: #fe0000;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #fe0000 !important;
+    border-radius: 0px;
+    transition:all 0.8s, color 0.3s 0.3s;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.btn-prof:hover {
+    color: #fe0000 !important;
+    background: white !important;
+    border: 1px solid white !important;
+    box-shadow:300px 0 0 0 white inset !important;
+}
+
+.footer-area {
+    background: #181818;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    font-size: 13px;
+}
+
+.foot-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.foot-list li {
+    line-height: 1.7em;
+}
+
+.foot-list li a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.foot-list li a:hover {
+    color: #fe0000;
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+.footer-social a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.float:hover {
+    color: white;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #c50505;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  #myBtn:hover {
+    background-color: #c50505;
+  }

@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>OMPIXS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="aos/aos.css">
+  <!-- Line Awesome -->
+  <link rel="stylesheet" href="line-awesome/css/line-awesome.css">
+  <link rel="stylesheet" href="line-awesome/css/line-awesome.min.css">
+  <!-- Font Awesome JS -->
+  <script src="js/font-awesome.js"></script>
+  <!-- Select CSS -->
+  <link rel="stylesheet" href="css/select2.min.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+
+</head>
+
+<body>
+  <header class="site-header d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+           <div class="col-6">
+             <div class="header-links">
+                <a href="#un"><span class="icon fa fa-envelope-o"></span> Email : support@ompixs.com</a>
+                <a href="#un"><span class="icon fa fa-phone"></span> Tel : +234-343-463-4839</a>
+             </div>
+           </div>
+           <div class="col-6">
+            <div class="header-socials text-end">
+                <a href="#un"><span class="icon fab fa-facebook-square"></span></a>
+                <a href="#un"><span class="icon fab fa-instagram-square"></span></a>
+                <a href="#un"><span class="icon fab fa-twitter-square"></span></a>
+            </div>
+           </div>
+        </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="nav-logo" src="img/optical-new.png" alt="ompixs logo"></a>
+      <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="la la-bars"></span>
+      </button>
+      <div class="offcanvas offcanvas-start offk-body" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">OMPIXS</h5>
+          <button type="button" class="btn close-btn" data-bs-dismiss="offcanvas" aria-label="Close"><span class="la la-times"></span></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId"
+                aria-haspopup="true" aria-expanded="false" class="camera-drop">Cameras</a>
+                <div class="abs-dropicon d-lg-none">
+                  <span class="fa fa-angle-right text-white" id="dropspan" onclick="getdropdown()"></span>
+              </div>
+              <div class="dropdown-menu ak-drop animated animate__faster fadeInUp" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Nikon</a>
+                <a class="dropdown-item" href="#">Canon</a>
+                <a class="dropdown-item" href="#">Sony</a>
+              </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+
+          <div class="social-navs d-lg-none" align="center">
+
+            <a href="#un"><i class="fab fa-facebook-f"></i></a>
+            <a href="#un"><i class="fab fa-twitter"></i></a>
+            <a href="#un"><i class="fab fa-instagram"></i></a>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <main>
+
+    <div class="home-banner">
+
+      <div>
+      <div class="banner-one">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+              <div class="banner-textarea">
+                <h1 class="text-uppercase text-berbas"><span class="text-white">Optical</span> <span class="text-red">Motion</span> <span class="text-white">Pictures</span></h1>
+                <p class="font-300">Premium Experience in Videography : Movie and Film Production, Professionals in Reality TV Shows, Advertising and online audio-visual content platforms.</p>
+                <div class="banner-button mt-3">
+                    <a href="#un" class="btn btn-banner text-barlow text-uppercase">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banner-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+            <div class="banner-textarea">
+              <h1 class="text-uppercase text-berbas"><span class="text-white">Camera</span> <span class="text-red">Rentals</span> </h1>
+              <p class="font-300">We also make provisions for Rentals of Cameras of Good Quality that would serve you excellently for your events.</p>
+              <div class="banner-button mt-3">
+                  <a href="#un" class="btn btn-banner text-barlow text-uppercase">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banner-three">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+            <div class="banner-textarea">
+              <h1 class="text-uppercase text-berbas"><span class="text-white">Event</span> <span class="text-red">Coverage</span> <span class="text-white">Specialists</span></h1>
+              <p class="font-300">Let Optical Motion Pictures handle your Wedding, Engagement, Graduation or any other big event you're planning that requires Video Coverage.</p>
+              <div class="banner-button mt-3">
+                  <a href="#un" class="btn btn-banner text-barlow text-uppercase">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <section class="welcome-area">
+      <div class="container text-center wow fadeInUp" data-wow-duration="1s">
+         <h2><span class="text-darkred">OMPIXS</span> - VIDEOGRAPHY AND CAMERA RENTALS</h2>
+         <p class="mt-2">Optical Motion Pictures Limited has been in the Television and Film industry in Nigeria, West Africa for over a decade and currently residing in BC Canada. Founded by Adeyemi Kolade. We are a highly skilled and creative professional who produces high-quality videos for clients on a project-by-project basis. With extensive experience in video production, we offer a wide range of services including pre-production planning, scripting, filming, editing, sound design, and color grading. We also deal in renting of Cameras for all forms of events.</p>
+         <p>Our mission is to create visually stunning videos that meet our clients' needs and exceed their expectations. We take pride in our ability to work collaboratively with clients and other professionals in the industry to bring their vision to life. With a strong work ethic and dedication to quality, we are committed to building a reputation for exceptional service and delivering outstanding results.</p>
+         <div class="mt-2">
+           <a href="#un" class="btn btn-about">More About Us <i class="la la-long-arrow-right"></i></a>
+         </div>
+      </div>
+    </section>
+
+    <section class="aboutceo-area position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+             <h2 class="text-barlow font-600 wow fadeInLeft" data-wow-duration="1.5s"><span class="text-darkred">About</span> Adeyemi Kolade</h2>
+             <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">Adeyemi Kolade is a skilled videographer with over a decade of experience capturing and creating stunning video content for Tv, Films, advertising and online audio-visual content platforms.</p>
+             <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">His Services includes video coverage for events such as weddings, conferences, and corporate events. I also specialize in documentary filming, TV series, and reality show production, bringing your vision to life with creative and engaging storytelling.</p>
+             <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s">In today's digital age, social media has become a powerful tool for businesses and individuals to connect with their audiences. That's why he also offers social media content creation services to help you create impactful videos that stand out on platforms like Instagram, Facebook, and YouTube.</p>
+          </div>
+
+          <div class="col-md-6 position-relative">
+             <div class="ceo-pic-cover position-relative wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                <div class="red-bg"></div>
+                <div class="ceo-pic-main">
+                  <img src="img/ceo.jpg" alt="ompixs ceo" class="img img-fluid">
+                </div>
+             </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="services-area">
+      <div class="container">
+         <h2 class="text-barlow text-center font-600 wow fadeInUp" data-wow-duration="1.5s">OUR <span class="text-darkred">SERVICES</span></h2>
+         <p class="text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">Below are the Services Rendered by Optical Motion Pictures (OMPIXS)</p>
+
+         <div class="row wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+          <div class="col-md-6">
+             <div class="service-content">
+                <span><i class="fa fa-plus"></i> Camera Rentals</span>
+             </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-content">
+               <span><i class="fa fa-plus"></i> Day Rate</span>
+            </div>
+         </div>
+         <div class="col-md-6">
+          <div class="service-content">
+             <span><i class="fa fa-plus"></i> Director of Photography</span>
+          </div>
+       </div>
+       <div class="col-md-6">
+        <div class="service-content">
+           <span><i class="fa fa-plus"></i> Camera Operator</span>
+        </div>
+     </div>
+     <div class="col-md-6">
+      <div class="service-content">
+         <span><i class="fa fa-plus"></i> Documentary</span>
+      </div>
+   </div>
+   <div class="col-md-6">
+    <div class="service-content">
+       <span><i class="fa fa-plus"></i> Cooperate portfolio & events</span>
+    </div>
+ </div>
+ <div class="col-md-6">
+  <div class="service-content">
+     <span><i class="fa fa-plus"></i> Wedding Videography service</span>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="service-content">
+     <span><i class="fa fa-plus"></i> Reality TV Show</span>
+  </div>
+</div>
+         </div>
+
+         <div class="mt-4 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
+          <a href="#un" class="btn btn-about">See All <i class="la la-long-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="featured-area position-relative">
+
+      <div class="container">
+
+      <ul class="nav nav-pills mb-4 mb-md-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item tab-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured Products</button>
+        </li>
+        <li class="nav-item tab-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Latest Products</button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+          <div class="slider-bread">
+            <p class="font-400"><span>Featured Products</span> | <a href="#Un">See All</a></p>
+          </div>
+
+          <div class="my-slider">
+
+            <div class="slider-item my-3">
+              <a href="#un" class="text-decoration-none">
+              <div class="slider-area project-slide p-3">
+                 <img src="img/products/Canon-EOS-6D-Digital-SLR-Camera.jpg" alt="" class="img-slider">
+                 <span class="item-head">Canon EOS 6D Digital SLR Camera</span>
+                 <span class="item-body">Rent Canon EOS 6D Digital SLR Camera because it has ...</span>
+                 <span class="item-price">$20.00</span>
+              </div>
+            </a>
+           </div>
+
+           <div class="slider-item my-3">
+            <a href="#un" class="text-decoration-none">
+            <div class="slider-area project-slide p-3">
+               <img src="img/products/Canon-EOS-R5.jpg" alt="" class="img-slider">
+               <span class="item-head">Canon EOS R5</span>
+               <span class="item-body">Rent Canon EOS R5 Digital SLR Camera because it has ...</span>
+               <span class="item-price">$18.00</span>
+            </div>
+          </a>
+         </div>
+
+         <div class="slider-item my-3">
+          <a href="#un" class="text-decoration-none">
+          <div class="slider-area project-slide p-3">
+             <img src="img/products/nikon-D7000.jpg" alt="" class="img-slider">
+             <span class="item-head">Nikon D7000</span>
+             <span class="item-body">Rent Nikon D7000 Digital SLR Camera because it has ...</span>
+             <span class="item-price">$15.00</span>
+          </div>
+        </a>
+       </div>
+
+       <div class="slider-item my-3">
+        <a href="#un" class="text-decoration-none">
+        <div class="slider-area project-slide p-3">
+           <img src="img/products/Nikon-D750.jpg" alt="" class="img-slider">
+           <span class="item-head">Nikon D750</span>
+           <span class="item-body">Rent Nikon D750 Digital SLR Camera because it has ...</span>
+           <span class="item-price">$25.00</span>
+        </div>
+      </a>
+     </div>
+
+     <div class="slider-item my-3">
+      <a href="#un" class="text-decoration-none">
+      <div class="slider-area project-slide p-3">
+         <img src="img/products/sony-alpha-a7-iii-mirrorless-digital-camera-with-28-70mm-lens.jpeg" alt="" class="img-slider">
+         <span class="item-head">Sony Alpha A7 III Mirrorless Digital Camera With 28-70mm lens</span>
+         <span class="item-body">Rent Sony Alpha A7 III Mirrorless Digital Camera With 28-70mm ...</span>
+         <span class="item-price">$25.00</span>
+      </div>
+    </a>
+   </div>
+
+   <div class="slider-item my-3">
+    <a href="#un" class="text-decoration-none">
+    <div class="slider-area project-slide p-3">
+       <img src="img/products/sony-alpha-a7-mark-iii-mirrorless-camera.jpg" alt="" class="img-slider">
+       <span class="item-head">Sony Alpha A7 Mark III Mirrorless Camera</span>
+       <span class="item-body">Rent Sony Alpha A7 Mark III Mirrorless Camera because it has ...</span>
+       <span class="item-price">$30.00</span>
+    </div>
+  </a>
+ </div>
+            
+          </div>
+        </div>
+        
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+          <div class="slider-bread">
+            <p class="font-400"><span>Latest Products</span> | <a href="#Un">See All</a></p>
+          </div>
+
+          <div class="my-slider">
+
+            <div class="slider-item my-3">
+              <a href="#un" class="text-decoration-none">
+              <div class="slider-area project-slide p-3">
+                 <img src="img/products/Canon-EOS-6D-Digital-SLR-Camera.jpg" alt="" class="img-slider">
+                 <span class="item-head">Canon EOS 6D Digital SLR Camera</span>
+                 <span class="item-body">Rent Canon EOS 6D Digital SLR Camera because it has ...</span>
+                 <span class="item-price">$20.00</span>
+              </div>
+            </a>
+           </div>
+
+           <div class="slider-item my-3">
+            <a href="#un" class="text-decoration-none">
+            <div class="slider-area project-slide p-3">
+               <img src="img/products/Canon-EOS-R5.jpg" alt="" class="img-slider">
+               <span class="item-head">Canon EOS R5</span>
+               <span class="item-body">Rent Canon EOS R5 Digital SLR Camera because it has ...</span>
+               <span class="item-price">$18.00</span>
+            </div>
+          </a>
+         </div>
+
+         <div class="slider-item my-3">
+          <a href="#un" class="text-decoration-none">
+          <div class="slider-area project-slide p-3">
+             <img src="img/products/nikon-D7000.jpg" alt="" class="img-slider">
+             <span class="item-head">Nikon D7000</span>
+             <span class="item-body">Rent Nikon D7000 Digital SLR Camera because it has ...</span>
+             <span class="item-price">$15.00</span>
+          </div>
+        </a>
+       </div>
+
+       <div class="slider-item my-3">
+        <a href="#un" class="text-decoration-none">
+        <div class="slider-area project-slide p-3">
+           <img src="img/products/Nikon-D750.jpg" alt="" class="img-slider">
+           <span class="item-head">Nikon D750</span>
+           <span class="item-body">Rent Nikon D750 Digital SLR Camera because it has ...</span>
+           <span class="item-price">$25.00</span>
+        </div>
+      </a>
+     </div>
+
+     <div class="slider-item my-3">
+      <a href="#un" class="text-decoration-none">
+      <div class="slider-area project-slide p-3">
+         <img src="img/products/sony-alpha-a7-iii-mirrorless-digital-camera-with-28-70mm-lens.jpeg" alt="" class="img-slider">
+         <span class="item-head">Sony Alpha A7 III Mirrorless Digital Camera With 28-70mm lens</span>
+         <span class="item-body">Rent Sony Alpha A7 III Mirrorless Digital Camera With 28-70mm ...</span>
+         <span class="item-price">$25.00</span>
+      </div>
+    </a>
+   </div>
+
+   <div class="slider-item my-3">
+    <a href="#un" class="text-decoration-none">
+    <div class="slider-area project-slide p-3">
+       <img src="img/products/sony-alpha-a7-mark-iii-mirrorless-camera.jpg" alt="" class="img-slider">
+       <span class="item-head">Sony Alpha A7 Mark III Mirrorless Camera</span>
+       <span class="item-body">Rent Sony Alpha A7 Mark III Mirrorless Camera because it has ...</span>
+       <span class="item-price">$30.00</span>
+    </div>
+  </a>
+ </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </section>
+
+
+    <section class="testimonial-area">
+
+       <div class="container">
+
+          <h2 class="text-center">Clients Testimonials</h2>
+
+          <div class="col-lg-8 mx-auto">
+            <p class="text-center text-white mt-2 font-400 font-14 pt-2 pb-3" data-wow-duration="1500">Here are some reviews from our clients</p>
+           </div>
+    
+           <div class="testi-content">
+            <div align="center" class="testifier my-3">
+             <div class="col-md-6">
+               <img src="img/ompixs-testi-1.jpg" alt="zilla-testi-1" class="img-testimonial">
+               <div class="test-quote mt-2">
+                 <p>
+                   <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+                   <span class="text-raleway text-white font-500">It was an awesome experience using OMPIXS Gadgets to cover an event. They're camera's are of very good and high quality.</span>
+                 </p>
+               </div>
+               <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+               <h4 class="text-barlow mt-2 text-white">Joseph Lucas</h4>
+             </div>
+            </div>
+       
+            <div align="center" class="testifier my-3">
+             <div class="col-md-6">
+             <img src="img/paa-testi-one.jpg" alt="zilla-testi-1" class="img-testimonial">
+             <div class="test-quote mt-2">
+               <p>
+                 <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+                 <span class="text-raleway text-white font-500">I came across Adeyemi Kolade when I needed someone to direct my movie and he really did an excellent Job beyond my expectation.</span>
+               </p>
+             </div>
+             <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+             <h4 class="text-barlow mt-2 text-white">Cheryl George</h4>
+           </div>
+           </div>
+       
+            <div align="center" class="testifier my-3">
+             <div class="col-md-6">
+             <img src="img/paa-mem-1.jpg" alt="zilla-testi-1" class="img-testimonial">
+             <div class="test-quote mt-2">
+               <p>
+                 <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+                 <span class="text-raleway text-white font-500">I contacted OMPIXS to cover my wedding and they did a great job. I was amazed after seeing the quality videos I got from them after the wedding.</span>
+               </p>
+             </div>
+             <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+             <h4 class="text-barlow mt-2 text-white">James Adekunle</h4>
+           </div>
+         </div>
+       
+          </div>
+
+       </div>
+
+    </section>
+
+    <section class="contact-area wow fadeInUp" data-wow-duration="1.5s">
+        <div class="container">
+
+          <h1 class="text-berbas">Contact Us</h1>
+
+          <div class="row">
+
+            <div class="col-lg-9 order-last order-lg-first">
+
+              <form action="" method="post">
+
+               <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group contact-group mt-3 mt-md-0">
+                    <label for="name" class="form-label">Name: </label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group contact-group mt-3 mt-md-0">
+                    <label for="email" class="form-label">Email: </label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group contact-group mt-3">
+                    <label for="tel" class="form-label">Phone Number: </label>
+                    <input type="tel" name="tel" id="tel" class="form-control" placeholder="Enter Phone Number" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group contact-group mt-3">
+                    <label for="topic" class="form-label">Subject: </label>
+                    <input type="topic" name="topic" id="topic" class="form-control" placeholder="Enter Subject" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group contact-group mt-3">
+                    <label for="msg" class="form-label">Message: </label>
+                    <textarea name="msg" id="msg" cols="30" rows="8" class="form-control" placeholder="Your Message" required></textarea>
+                  </div>
+                </div>
+               </div>
+
+               <div class="mt-4">
+                  <button type="submit" class="btn btn-submit">Submit <i class="fa fa-paper-plane-o"></i></button>
+               </div>
+
+              </form>
+
+            </div>
+
+            <div class="col-lg-3 order-first order-lg-last mt-2 mt-mt-0">
+
+              <div class="contact-info">
+                <h5 class="text-barlow text-uppercase font-600"><span class="text-red me-1"><i class="fa fa-home"></i></span> Address</h5>
+                <p class="font-14">Banana Island, Lagos, Nigeria.</p>
+              </div>
+
+              <div class="contact-info mt-3">
+                <h5 class="text-barlow text-uppercase font-600"><span class="text-red me-1"><i class="fa fa-envelope-o"></i></span> Email</h5>
+                <p class="font-14">support@ompixs.com</p>
+              </div>
+
+              <div class="contact-info mt-3">
+                <h5 class="text-barlow text-uppercase font-600"><span class="text-red me-1"><i class="fa fa-phone"></i></span> Phone Number</h5>
+                <p class="font-14">+234-343-463-4839</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+
+    <section class="profile-area">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-10 text-center">
+             <h2 class="text-white text-roboto-bold">Take a Drive through our Successful Projects and Acheivements so far.</h2>
+             <div class="mt-3">
+              <a href="#un" class="btn btn-prof text-barlow text-uppercase">View Company's Profile <i class="la la-long-arrow-right"></i></a>
+          </div>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <section></section>
+
+  </main>
+
+  <footer class="footer-area">
+    <!-- place footer here -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+              <h4 class="text-white text-lato footer-header">OMPIXS</h4>
+              <p class="footer-text text-white-50">Optical Motion Pictures Limited has been in the Television and Film industry in Nigeria, West Africa for over a decade and currently residing in BC Canada. Founded by Adeyemi Kolade. We are a highly skilled and creative professional who produces high-quality videos for clients on a project-by-project basis.</p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-white text-lato footer-header">Quicks Links</h4>
+            <ul class="foot-list">
+              <li><a href="#un">Home</a></li>
+              <li><a href="#un">About</a></li>
+              <li><a href="#un">Profile</a></li>
+              <li><a href="#un">Cameras</a></li>
+              <li><a href="#un">Services</a></li>
+              <li><a href="#un">Gallery</a></li>
+              <li><a href="#un">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-white text-lato footer-header">Contact</h4>
+            <ul class="foot-list">
+              <li><a href="#un"><span class="text-red me-1"><i class="fa fa-home"></i></span> Address : Banana Island, Lagos, Nigeria.</a></li>
+              <li><a href="#un"><span class="text-red me-1"><i class="fa fa-envelope-o"></i></span> Email : support@ompixs.com</a></li>
+              <li><a href="#un"><span class="text-red me-1"><i class="fa fa-phone"></i></span> Phone Number : +234-343-463-4839</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-social mt-4 text-center">
+          <a href="#un"><i class="fab fa-facebook"></i></a>
+          <a href="#un"><i class="fab fa-twitter"></i></a>
+          <a href="#un"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p class="text-center text-white footer-text mt-2">Copyright &copy; <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+
+    </div>
+
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=2343434634839&text=Hello%20OMPIXS%20I%20have%20an%20enquiry%20to%20make." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+      <!-- WOW JS -->
+      <script src="js/wow.js"></script>
+      <script>
+        wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+        }
+        )
+        wow.init();         
+      </script>
+    
+        <!-- AOS JS -->
+        <script src="aos/aos.js"></script>
+         <script>
+          AOS.init();
+         </script>
+  
+        <!-- Slick JS -->
+        <script src="slick-js/jquery-1.11.0.min.js"></script>
+        <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+
+        <script>
+
+$(document).ready(function(){
+
+  $('.home-banner').slick({
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  cssEase: 'linear',
+  autoplay:true,
+  autoplaySpeed:4000,
+  arrows: true,
+  nextArrow: '<button class="carousel-arrow next inverted"><i class="la la-angle-right"></i></button>',
+  prevArrow: '<button class="carousel-arrow prev inverted"><i class="la la-angle-left"></i></button>',
+});
+
+$('.my-slider').slick({
+centerMode: true,
+centerPadding: '60px',
+slidesToShow: 4,
+dots: true,
+dotsClass: 'myslider-dots',
+autoplay:true,
+speed: 2000,
+autoplaySpeed:4000,
+arrows: true,
+nextArrow: '<button class="slider-arrow next inverted"><i class="fa fa-angle-right text-white"></i></button>',
+prevArrow: '<button class="slider-arrow prev inverted"><i class="fa fa-angle-left text-white"></i></button>',
+responsive: [
+  {
+    breakpoint: 800,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 3
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 1
+    }
+  }
+]
+});
+
+});
+
+$('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
+
+  $('.my-slider').slick('setPosition');
+
+});
+
+$('.testi-content').slick({
+  dots: true,
+  dotsClass: 'testi-dots',
+  infinite: false,
+  speed: 1000,
+  autoplay:true,
+  autoplaySpeed:3000,
+  arrows: true,
+  nextArrow: '<button class="carousel-arrow next inverted"><i class="la la-angle-right la-3x text-green"></i></button>',
+  prevArrow: '<button class="carousel-arrow prev inverted"><i class="la la-angle-left la-3x text-green"></i></button>',
+});
+        </script>
+
+      <!-- Custom JS -->
+      <script src="js/script.js"></script>
+
+      <!-- Select JS -->
+      <script src="js/select2.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('.select-control').select2({
+            width: "100%",
+          });
+        });
+      </script>
+
+</body>
+
+</html>

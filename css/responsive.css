@@ -81,7 +81,13 @@
     }
 
     .proj-area {
-        height: 370px;
+        height: 340px;
+      }
+
+      .proj-area .image {
+        max-height: 340px;
+        height: 340px;
+        object-fit: scale-down;
       }
 
       .proj-area .overlay .text .name {

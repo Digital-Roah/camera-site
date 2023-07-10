@@ -80,6 +80,26 @@
         left:20px;
     }
 
+    .proj-area {
+        height: 370px;
+      }
+
+      .proj-area .overlay .text .name {
+        font-size: 14px;
+      }
+      
+      .proj-area .overlay .text .type {
+        font-size: 13px;
+      }
+      
+      .proj-area .overlay .text .starring {
+        font-size: 13px;
+      }
+      
+      .proj-area .overlay .text {
+        bottom: 20px;
+      }
+
 }
 
 @media (max-width:393px) {

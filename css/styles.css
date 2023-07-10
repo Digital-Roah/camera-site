@@ -5,11 +5,12 @@ html, body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    background: #040001;
 }
 
 body p {
     font-size: 15px;
-    color: grey;
+    color: rgba(255,255,255,.5);
     line-height: 1.8em;
 }
 
@@ -297,21 +298,21 @@ body p {
   }
 
   .banner-one {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/IMG_1490.JPG) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/canon-bg.jpg) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
 }
 
 .banner-two {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/IMG_3834.JPG) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)) , url(../img/photo-gadget.jpg) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
 }
 
 .banner-three {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)) , url(../img/9f3db681-f16a-4c59-ad8b-213741dd9111.JPG) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)) , url(../img/gadget-3.webp) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
@@ -369,9 +370,9 @@ section {
 
 .btn-about:hover {
     color: #fe0000 !important;
-    background: white !important;
+    background: transparent !important;
     border: 1px solid #fe0000 !important;
-    box-shadow:300px 0 0 0 white inset !important;
+    box-shadow:300px 0 0 0 transparent inset !important;
 }
 
 .red-bg {
@@ -394,6 +395,86 @@ section {
     padding: 0px 40px;
     top: 30px;
     left: 5%;
+}
+
+.project-slider .slider-arrow {
+  border: 0;
+  background: transparent;
+  /* display: none !important; */
+  height: 50px;
+  width: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  transform: translate(0, -50%);
+  outline: 0;
+  cursor: pointer;
+}
+
+/* .testi-content:hover .carousel-arrow {
+   display: block !important;
+} */
+
+/* Modificação só pra a seta do próximo carousel ficar na direita */
+
+.project-slider .slider-arrow.next {
+  right: 0;
+  margin-right: 15px;
+}
+
+.proj-area {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 400px;
+  position: relative;
+}
+
+.proj-area .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.proj-area .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+.proj-area:hover .overlay {
+  opacity: 1;
+}
+
+.proj-area .overlay .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  padding-right: 15px;
+}
+
+.proj-area .overlay .text .name {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.proj-area .overlay .text .type {
+  font-size: 14px;
+}
+
+.proj-area .overlay .text .starring {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .tab-item .nav-link {
@@ -422,7 +503,7 @@ section {
 
 .slider-bread a {
     text-decoration: none;
-    color: #c50505;
+    color: #fe0000;
 }
 
    /* Carousel Slider Center Mode */
@@ -467,7 +548,7 @@ section {
     width: 8px;
     height: 10px;
     border: none;
-    background: #181818;
+    background: white;
     font-size: 0px;
     /* color: #65066C; */
     /* border-radius: 50%; */
@@ -546,7 +627,7 @@ section {
   }
 
   .testimonial-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)) , url(../img/IMG_5693.JPG) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/IMG_3834.JPG) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding: 30px 0px;
@@ -624,24 +705,33 @@ section {
     font-size: 17px;
   }
 
+  .red-bot {
+    background: #fe0000;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 20px;
+  }
+
   .contact-group {
     font-family: 'Barlow', sans-serif;
   }
 
   .contact-group .form-label {
     font-weight: 500;
-    color: #2e2e2e;
+    color: whitesmoke;
   }
 
   .contact-group .form-control {
     border-radius: 0px;
     padding: 10px 15px;
+    background: transparent;
+    color: white;
   }
 
   .contact-group .form-control:focus {
-    color: #c50505;
+    color: white;
     box-shadow: none;
-    border-color: #c50505;
+    border-color: white;
   }
 
   .btn-submit {
@@ -692,7 +782,7 @@ section {
 }
 
 .footer-area {
-    background: #181818;
+    background: #040001;
     padding-top: 30px;
     padding-bottom: 15px;
 }

@@ -335,6 +335,8 @@ body p {
     background: #39ff14;
     font-size: 17px;
     font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 0px;
     border: 1px solid #39ff14 !important;
     transition:all 0.8s, color 0.3s 0.3s;
 }

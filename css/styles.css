@@ -5,7 +5,7 @@ html, body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background: #040001;
+    background: #181818;
 }
 
 body p {
@@ -151,7 +151,7 @@ body p {
 
 
 .navbar {
-    background: white;
+    background: #a29f9a;
 }
 
 .navbar .navbar-brand .nav-logo {
@@ -178,11 +178,11 @@ body p {
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-    color: #fe0000;
+    color: #040001;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #fe0000;
+    color: #040001;
 }
 
 .abs-dropicon {
@@ -331,19 +331,19 @@ body p {
 }
 
 .btn-banner {
-    color: white;
-    background: #fe0000;
+    color: #040001;
+    background: #39ff14;
     font-size: 17px;
-    font-weight: 500;
-    border: 1px solid #fe0000 !important;
+    font-weight: 600;
+    border: 1px solid #39ff14 !important;
     transition:all 0.8s, color 0.3s 0.3s;
 }
 
 .btn-banner:hover {
-    color: #fe0000 !important;
-    background: white !important;
-    border: 1px solid white !important;
-    box-shadow:300px 0 0 0 white inset !important;
+    color: #39ff14 !important;
+    background: #040001 !important;
+    border: 1px solid #39ff14 !important;
+    box-shadow:300px 0 0 0 #040001 inset !important;
 }
 
 section {
@@ -357,10 +357,10 @@ section {
 
 .btn-about {
     color: white;
-    background: #fe0000;
+    background: #39ff14;
     font-size: 17px;
     font-weight: 500;
-    border: 1px solid #fe0000 !important;
+    border: 1px solid #39ff14 !important;
     border-radius: 0px;
     transition:all 0.8s, color 0.3s 0.3s;
     font-family: 'Barlow', sans-serif;
@@ -369,14 +369,14 @@ section {
 }
 
 .btn-about:hover {
-    color: #fe0000 !important;
+    color: #39ff14 !important;
     background: transparent !important;
-    border: 1px solid #fe0000 !important;
+    border: 1px solid #39ff14 !important;
     box-shadow:300px 0 0 0 transparent inset !important;
 }
 
 .red-bg {
-    background: #c50505;
+    background: #39ff14;
     position: absolute;
     width: 90%;
     height: 200px;
@@ -500,19 +500,19 @@ section {
 
 .tab-item .nav-link.active {
     color: white;
-    background: #c50505;  
+    background: #39ff14;  
 }
 
 .slider-bread a {
     text-decoration: none;
-    color: #fe0000;
+    color: #39ff14;
 }
 
    /* Carousel Slider Center Mode */
 
    .my-slider .slider-arrow {
     border: 0;
-    background: #c50505;
+    background: #39ff14;
     padding: 7px 15px;
     position: absolute;
     font-size: 20px;
@@ -559,7 +559,7 @@ section {
   }
   
   .myslider-dots li.slick-active > button {
-    background: #fe0000;
+    background: #39ff14;
   }
 
   .slider-item .slider-area {
@@ -615,7 +615,7 @@ section {
   }
 
   .service-content:hover {
-    background: #c50505;
+    background: #39ff14;
   }
 
   .service-content span {
@@ -708,7 +708,7 @@ section {
   }
 
   .red-bot {
-    background: #fe0000;
+    background: #39ff14;
     width: 50px;
     height: 4px;
     margin-bottom: 20px;
@@ -737,11 +737,11 @@ section {
   }
 
   .btn-submit {
-    color: white;
-    background: #c50505;
+    color: #040001;
+    background: #39ff14;
     font-size: 17px;
     font-weight: 500;
-    border: 1px solid #c50505 !important;
+    border: 1px solid #39ff14 !important;
     border-radius: 0px;
     transition:all 0.8s, color 0.3s 0.3s;
     font-family: 'Barlow', sans-serif;
@@ -750,10 +750,10 @@ section {
 }
 
 .btn-submit:hover {
-    color: #c50505 !important;
-    background: white !important;
-    border: 1px solid #c50505 !important;
-    box-shadow:300px 0 0 0 white inset !important;
+    color: #39ff14 !important;
+    background: transparent !important;
+    border: 1px solid #39ff14 !important;
+    box-shadow:300px 0 0 0 transparent inset !important;
 }
 
 .profile-area {
@@ -765,10 +765,10 @@ section {
 
   .btn-prof {
     color: white;
-    background: #fe0000;
+    background: #39ff14;
     font-size: 17px;
     font-weight: 500;
-    border: 1px solid #fe0000 !important;
+    border: 1px solid #39ff14 !important;
     border-radius: 0px;
     transition:all 0.8s, color 0.3s 0.3s;
     font-family: 'Barlow', sans-serif;
@@ -777,14 +777,14 @@ section {
 }
 
 .btn-prof:hover {
-    color: #fe0000 !important;
-    background: white !important;
-    border: 1px solid white !important;
-    box-shadow:300px 0 0 0 white inset !important;
+    color: #39ff14 !important;
+    background: #040001 !important;
+    border: 1px solid #39ff14 !important;
+    box-shadow:300px 0 0 0 #040001 inset !important;
 }
 
 .footer-area {
-    background: #040001;
+    background: #181818;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -809,7 +809,7 @@ section {
 }
 
 .foot-list li a:hover {
-    color: #fe0000;
+    color: #39ff14;
 }
 
 .footer-social a {

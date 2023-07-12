@@ -358,7 +358,7 @@ section {
 }
 
 .btn-about {
-    color: white;
+    color: #040001;
     background: #39ff14;
     font-size: 17px;
     font-weight: 500;
@@ -501,7 +501,7 @@ section {
 }
 
 .tab-item .nav-link.active {
-    color: white;
+    color: #181818;
     background: #39ff14;  
 }
 

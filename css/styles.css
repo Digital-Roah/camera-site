@@ -631,7 +631,7 @@ section {
   }
 
   .testimonial-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/IMG_3834.JPG) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/testi-camera.jpg) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding: 30px 0px;

@@ -568,7 +568,7 @@ section {
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
-    background: whitesmoke;
+    background: white;
   }
 
   .slider-item .slider-area .img-slider {
@@ -587,9 +587,9 @@ section {
 
   .slider-area .item-head {
     display: block;
-    color: #2e2e2e;
+    color: #c50505;
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Lato', sans-serif;
   }
 
@@ -801,7 +801,7 @@ section {
 }
 
 .foot-list li {
-    line-height: 1.7em;
+    line-height: 1.8em;
 }
 
 .foot-list li a {
@@ -868,4 +868,15 @@ section {
   
   #myBtn:hover {
     background-color: #c50505;
+  }
+
+  .digi-link {
+    color: #39ff14;
+    text-decoration: none;
+  }
+
+  .digi-link:hover {
+    color: #39ff14;
+    text-decoration: underline;
+    text-decoration-color: #39ff14;
   }

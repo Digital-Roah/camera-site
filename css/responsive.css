@@ -142,6 +142,10 @@
         font-size: 20px;
       }
 
+      .other-banners p {
+        font-size: 14px;
+      }
+
 }
 
 @media (max-width:393px) {

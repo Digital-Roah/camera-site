@@ -19,13 +19,13 @@
  }
 
  // For customized dropdown
-function getdropdown() {
+function getdropdown(id) {
     // alert(id);
-    $('#dropspan').toggleClass('fa-angle-down fa-angle-right');
-    if($('#dropspan').hasClass('fa-angle-down')) {
-        $('.ak-drop').slideDown();
-    } else if($('#dropspan').hasClass('fa-angle-right')) {
-        $('.ak-drop').slideUp();
+    $('#dropspan'+id).toggleClass('fa-angle-down fa-angle-right');
+    if($('#dropspan'+id).hasClass('fa-angle-down')) {
+        $('#akmenu'+id).slideDown();
+    } else if($('#dropspan'+id).hasClass('fa-angle-right')) {
+        $('#akmenu'+id).slideUp();
     }
 }
 

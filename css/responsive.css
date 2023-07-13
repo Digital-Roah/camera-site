@@ -106,6 +106,42 @@
         bottom: 20px;
       }
 
+      .video-bg {
+        height: 400px;
+        min-height: 400px;
+        padding-top: 100px;
+      }
+    
+      .video-bg h1 {
+        letter-spacing: 5px;
+        font-size: 30px;
+      }
+
+      .regvideo {
+        width: 100%;
+        height: 400px;
+      }
+
+      .water-mark {
+        bottom: 10px;
+        left: 10px;
+      }
+    
+      .water-mark .img-watermark {
+        width: 125px;
+      }
+
+      .playvideo {
+        font-size: 17px;
+        width: 150px;
+      }
+
+      .close-hidden {
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+      }
+
 }
 
 @media (max-width:393px) {

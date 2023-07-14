@@ -146,6 +146,18 @@
         font-size: 14px;
       }
 
+      .cam-item .slider-area .item-head {
+        font-size: 13px;
+      }
+
+      .cam-item .slider-area .item-body {
+        font-size: 12px;
+      }
+
+      .product-index {
+        margin-top: 30px;
+      }
+
 }
 
 @media (max-width:393px) {

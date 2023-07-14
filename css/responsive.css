@@ -46,6 +46,10 @@
         display: none;
     }
 
+    .responsive .show-img img{
+      height: 80px;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -156,6 +160,14 @@
 
       .product-index {
         margin-top: 30px;
+      }
+
+      .product-showarea {
+        margin-top: 30px;
+      }
+
+      .responsive .show-img img{
+        height: 120px;
       }
 
 }

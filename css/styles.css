@@ -303,6 +303,15 @@ body p {
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
+    height: 500px;
+    width: 100%;
+      /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .banner-two {
@@ -310,6 +319,15 @@ body p {
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
+    height: 500px;
+    width: 100%;
+      /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .banner-three {
@@ -317,6 +335,22 @@ body p {
     min-height: 500px;
     background-size: cover;
     padding-top: 100px;
+    height: 500px;
+    width: 100%;
+      /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner-cover {
+  top: 0;
+  margin-top: 100px;
+  left: 0;
+  z-index: 2;
 }
 
 .banner-textarea {
@@ -632,7 +666,7 @@ section {
   }
 
   .testimonial-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../img/ompixs-ban3.jpeg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../img/gadget-3.webp) no-repeat center;
     min-height: 500px;
     background-size: cover;
     padding: 30px 0px;

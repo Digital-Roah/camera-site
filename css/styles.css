@@ -151,7 +151,8 @@ body p {
 
 
 .navbar {
-    background: #a29f9a;
+    /* background: #a29f9a; */
+    background: #cccccc;
 }
 
 .navbar .navbar-brand .nav-logo {
@@ -306,8 +307,8 @@ body p {
     height: 500px;
     width: 100%;
       /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
   position: absolute;
   top: 0;
   left: 0;
@@ -322,8 +323,8 @@ body p {
     height: 500px;
     width: 100%;
       /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
   position: absolute;
   top: 0;
   left: 0;
@@ -338,8 +339,8 @@ body p {
     height: 500px;
     width: 100%;
       /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
   position: absolute;
   top: 0;
   left: 0;
